@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTEM_LOGIN // MIHIR</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="round-photo1">
+            <a href="#"><img src="mihir's webblue.png" alt="Mihir Patel"></a>
+        </div>
+        <h1 class="glitch" data-text="SYSTEM_LOGIN">SYSTEM_LOGIN</h1>
+        <hr>
+		
+        <form onsubmit="return validateForm();">
+            <input type="password" id="password" name="password" placeholder="[Enter Password]">
+            <input type="number" id="passcode" name="passcode" placeholder="[Enter 4-digit PassCode]" pattern="[0-9]{4}" title="Please enter a 4-digit Passcode">
+            <span class="note">* Decryption Keys located in Instagram Highlights *</span>
+            <button type="submit">INITIALIZE_QUIZ</button>
+        </form>
+        <hr>
+        <h3>NETWORK_LINKS</h3>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100085386760136" target="_blank"><img src="facebook.jpg" alt="Facebook"></a>
+			 <a href="https://www.linkedin.com/in/mihiiirpatel" target="_blank"><img src="linkedin.jpg" alt="Linkedin"></a>
+            <a href="https://www.instagram.com/mihiiirpatel/" target="_blank"><img src="instagram.jpg" alt="Instagram"></a>
+            <a href="https://www.youtube.com/@mihiiirpatel" target="_blank"><img src="youtube.jpg" alt="YouTube"></a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; Mihir Patel // V2.0</p>
+    </div>
+<!-- Add this right above the </body> tag in index.html -->
+    <div id="cyber-alert-overlay" class="cyber-overlay" style="display: none;">
+        <div id="cyber-alert-box" class="cyber-alert-box">
+            <h2 id="cyber-alert-title" class="glitch" data-text="ACCESS_DENIED">ACCESS_DENIED</h2>
+            <p id="cyber-alert-message">Intruder detected!</p>
+            <button id="cyber-alert-btn" onclick="closeCyberAlert()" type="button">ACKNOWLEDGE_&_RETRY</button>
+        </div>
+    </div>
+</body>
+</html>
+

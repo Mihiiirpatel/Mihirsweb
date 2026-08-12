@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA_EXTRACTION // MIHIR</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <div class="container" id="quiz-container">
+        <div class="round-photo2">
+            <img src="mihir's webpink.png" alt="Mihir Patel">
+        </div>
+        <div id="quiz">
+            <h2 class="glitch" data-text="MEMORY_CHECK">MEMORY_CHECK</h2>
+            <p>> Calibrating user knowledge base...</p>
+            <hr>
+            
+            <div class="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+            <p id="progress" style="font-size: 0.8rem; color: var(--cyber-magenta); text-align: right; margin-bottom: 20px;"></p>
+
+            <h3 id="question">Loading Data...</h3>
+            <div id="quiz-options">
+                <button id="bt0"><span id="choice0"></span></button>
+                <button id="bt1"><span id="choice1"></span></button>
+                <button id="bt2"><span id="choice2"></span></button>
+                <button id="bt3"><span id="choice3"></span></button>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; <span id="yearDisplay"></span> All Rights Reserved By <a href="https://www.instagram.com/mihiiirpatel/">Mihir Patel</a>.</p>
+    </div>
+    <script src="app.js"></script>
+    <script>document.getElementById("yearDisplay").innerText = new Date().getFullYear();</script>
+</body>
+</html>
